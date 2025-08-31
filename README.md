@@ -43,7 +43,7 @@ Start the development server:
 ```bash
 npm start
 ```
-Open your browser and go to https://attendanceproxy.netlify.app/ to access the application.
+Open your browser and go to https://localhost:4000 to access the application.
 
 ## Contributing
 
