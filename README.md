@@ -58,7 +58,3 @@ This project was developed by the following team members:
 - Shreeja
 - Nupur
 - Ayush
-
-## License
-
-This project is licensed under the MIT License.
