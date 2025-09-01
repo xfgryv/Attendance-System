@@ -1,6 +1,6 @@
 # Attendance-System
 
-This repository contains the codebase for the Attendance-System, developed as part of the Smart India Hackathon (SIH) project. The Attendance-System is designed to streamline and automate attendance tracking using web technologies, providing an efficient and user-friendly solution for educational institutions and organizations.
+This repository contains the codebase for the Attendance-System, developed as part of the Smart India Hackathon (SIH) project. The Attendance-System is designed to streamline and automate attendance t[...]
 
 ## Features
 
@@ -43,7 +43,7 @@ Start the development server:
 ```bash
 npm start
 ```
-Open your browser and go to https://localhost:4000 to access the application.
+Open your frontend localhost ("http://localhost:5174") to access the application.
 
 ## Contributing
 
@@ -58,3 +58,32 @@ This project was developed by the following team members:
 - Shreeja
 - Nupur
 - Ayush
+
+---
+
+## Environment Variables
+
+### Frontend (`.env`)
+
+```
+VITE_API_BASE_URL=your backend localhost
+```
+
+### Backend (`.env`)
+
+```
+PORT=give your port number
+MONGODB_URL=your db connection string
+CORS_ORIGIN=your frontend localhost
+ACCESS_TOKEN_SECRET=your secret
+ACCESS_TOKEN_EXPIRES_IN=days(10d)
+
+CLOUDINARY_CLOUD_NAME=your cloudinary account name
+CLOUDINARY_API_KEY=your cloudinary api key
+CLOUDINARY_API_SECRET=your cloudinary api secret
+QR_CODE_SECRET=your qr_secret
+```
+
+---
+
+**Note:** This project is not fully completed right now. We will integrate an online class attendance system in the future. Currently, only the offline class attendance system has been integrated.
